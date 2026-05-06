@@ -24,15 +24,15 @@ the main network.
 
 | From | To | Result | Reason |
 |------|----|--------|--------|
-| LAN | Internet | ✅ Allowed | Trusted devices need internet |
-| IoT | Internet | ✅ Allowed | IoT devices need internet |
-| Guest | Internet | ✅ Allowed | Guests need internet |
-| LAN | IoT | ❌ Blocked | Prevent lateral movement |
-| LAN | Guest | ❌ Blocked | Prevent lateral movement |
-| IoT | LAN | ❌ Blocked | Contain compromised IoT devices |
-| IoT | Guest | ❌ Blocked | Isolate untrusted segments |
-| Guest | LAN | ❌ Blocked | Protect main network |
-| Guest | IoT | ❌ Blocked | Isolate guest users |
+| LAN | Internet |  Allowed | Trusted devices need internet |
+| IoT | Internet |  Allowed | IoT devices need internet |
+| Guest | Internet |  Allowed | Guests need internet |
+| LAN | IoT |  Blocked | Prevent lateral movement |
+| LAN | Guest |  Blocked | Prevent lateral movement |
+| IoT | LAN |  Blocked | Contain compromised IoT devices |
+| IoT | Guest |  Blocked | Isolate untrusted segments |
+| Guest | LAN |  Blocked | Protect main network |
+| Guest | IoT |  Blocked | Isolate guest users |
 
 ## Tools Used
 - VirtualBox 7.2.8 — Hypervisor
