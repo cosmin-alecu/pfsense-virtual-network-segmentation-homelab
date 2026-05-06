@@ -94,17 +94,17 @@ Three /24 subnets were designed from the 192.168.0.0/16 private range:
 Each segment was tested with ping to verify correct behavior:
 
 ### Expected Results
-| From | Destination | Expected | Result |
-|------|-------------|----------|--------|
-| LAN | 8.8.8.8 | ✅ Success | ✅ Pass |
-| LAN | 192.168.10.1 | ❌ Blocked | ✅ Pass |
-| LAN | 192.168.20.1 | ❌ Blocked | ✅ Pass |
-| IoT | 8.8.8.8 | ✅ Success | ✅ Pass |
-| IoT | 192.168.1.1 | ❌ Blocked | ✅ Pass |
-| IoT | 192.168.20.1 | ❌ Blocked | ✅ Pass |
-| Guest | 8.8.8.8 | ✅ Success | ✅ Pass |
-| Guest | 192.168.1.1 | ❌ Blocked | ✅ Pass |
-| Guest | 192.168.10.1 | ❌ Blocked | ✅ Pass |
+| From | Destination | Result |
+|------|-------------|----------|
+| LAN | 8.8.8.8 |  Success |
+| LAN | 192.168.10.1 |  Blocked |
+| LAN | 192.168.20.1 |  Blocked |
+| IoT | 8.8.8.8 |  Success |
+| IoT | 192.168.1.1 |  Blocked |
+| IoT | 192.168.20.1 |  Blocked |
+| Guest | 8.8.8.8 |  Success |
+| Guest | 192.168.1.1 |  Blocked |
+| Guest | 192.168.10.1 |  Blocked |
 
 ## What I Learned
 - pfSense firewall configuration and rule ordering
@@ -117,9 +117,6 @@ Each segment was tested with ping to verify correct behavior:
 - Importance of bidirectional firewall rules for proper segmentation
 - pfSense state table and how existing connections bypass new rules
 
-## Troubleshooting
-See [troubleshooting.md](troubleshooting.md) for a full log of issues 
-encountered and how they were resolved during this project.
 
 ## Screenshots
 See [screenshots/](screenshots/) folder for full test results and 
