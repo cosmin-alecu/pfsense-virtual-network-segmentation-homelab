@@ -124,6 +124,4 @@ configuration evidence.
 ## Files
 - `/screenshots` — ping test results and pfSense configuration screenshots
 - `/diagrams` — network topology diagram
-- `/configs` — pfSense backup configuration XML
-- `/troubleshooting.md` — issues encountered and fixes applied
 - `/README.md` — project overview and documentation
