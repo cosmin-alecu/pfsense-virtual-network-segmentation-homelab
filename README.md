@@ -53,7 +53,7 @@ All VMs run on a single host machine using VirtualBox:
 
 ## How It Works
 pfSense acts as the central firewall and router with four network 
-interfaces — one WAN facing the internet via NAT, and three internal 
+interfaces; one WAN facing the internet via NAT, and three internal 
 interfaces each serving a separate network segment using VirtualBox 
 Host-only Adapters. DHCP is handled by pfSense on each segment. Firewall 
 rules enforce strict inter-segment blocking while allowing internet 
