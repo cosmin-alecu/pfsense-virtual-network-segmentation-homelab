@@ -115,7 +115,6 @@ Each segment was tested with ping to verify correct behavior:
 - Troubleshooting methodology — isolating problems layer by layer
 - How hypervisors handle virtual network traffic between VMs
 - Importance of bidirectional firewall rules for proper segmentation
-- pfSense state table and how existing connections bypass new rules
 
 
 ## Screenshots
