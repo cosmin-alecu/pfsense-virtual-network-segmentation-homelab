@@ -110,9 +110,9 @@ Each segment was tested with ping to verify correct behavior:
 - pfSense firewall configuration and rule ordering
 - Network segmentation design concepts used in enterprise environments
 - DHCP server configuration across multiple interfaces
-- VirtualBox virtual networking — NAT, Host-only Adapters
+- VirtualBox virtual networking: NAT, Host-only Adapters
 - Subnetting and IP addressing for isolated network zones
-- Troubleshooting methodology — isolating problems layer by layer
+- Troubleshooting methodology: isolating problems layer by layer
 - How hypervisors handle virtual network traffic between VMs
 - Importance of bidirectional firewall rules for proper segmentation
 
